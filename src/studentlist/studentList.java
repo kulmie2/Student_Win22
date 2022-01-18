@@ -11,7 +11,7 @@ package studentlist;
  */
 public class studentList {
     public static void main(String[] args){
-        Student[] studentList = new Student[4];
+        Student[] studentList = new Student[3];
         studentList[0] = new Student("1","Sharif Kulmie");
         studentList[1] = new Student("2","Yahya Abubakar");
         studentList[2] = new Student("3","Fartun Ahmed");
