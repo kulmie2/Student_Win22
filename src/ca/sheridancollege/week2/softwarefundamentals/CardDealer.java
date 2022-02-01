@@ -24,5 +24,10 @@ public class CardDealer
         
         Card newCardObject = new Card("Heart", 7);
         System.out.println("The Card Suit" + newCardObject.getSuit() + " and the value is " + newCardObject.getValue());
+        
+        // Modifying newCardObject value and suit from GitHub | and after that creating new branch from Github
+        newCardObject.setValue(5);
+        newCardObject.setSuit("Diamond");
+        System.out.println("The Card Suit" + newCardObject.getSuit() + " and the value is " + newCardObject.getValue());
     }
 }
