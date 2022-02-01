@@ -20,6 +20,6 @@ public class CardDealer
         
         Card cardObject = new Card("Spades", 10);
         cardObject.setValue(11);
-        System.out.println("The Card Suit" + cardObject.getSuit + " and the value is " + cardObject.getValue);
+        System.out.println("The Card Suit" + cardObject.getSuit() + " and the value is " + cardObject.getValue());
     }
 }
